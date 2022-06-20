@@ -2,8 +2,7 @@
 
 function reverseString(word){
   // make an array from the string
-  const wordArray = word.split('');
-    // const wordStr = [...word];
+  const wordArray = word.split(''); // const wordStr = [...word];
   // reverse the array
   const reversedWordArray = wordArray.reverse();
   // Make a string from the reversed array
